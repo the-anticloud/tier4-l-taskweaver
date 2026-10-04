@@ -1,0 +1,14 @@
+{
+  "benchmark": "Lizard_Complexity_Lab_Results",
+  "project": "L_TASKWEAVER",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/terryyin/lizard",
+  "results": {
+    "framework": "Lizard \u2014 Multi-Language Complexity Analyzer",
+    "source": "https://github.com/terryyin/lizard",
+    "total_functions": null,
+    "avg_cyclomatic_complexity": null,
+    "status": "SKIP",
+    "raw_output": "================================================\n  NLOC    CCN   token  PARAM  length  location  \n------------------------------------------------\n      20      1     44      1      20 format_description@31-50@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_TASKWEAVER\\UPSTREAM\\auto_eval\\dabench_scripts\\prepare_cases.py\n      10      2     47      1      10 format_score_points@52-61@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_TASKWEAVER\\UPSTREAM\\auto_eval\\dabench_scripts\\prepare_cases.py\n      13      3    104      3      19 replace_with_same_indent@22-40@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_TASKWEAVER\\UPSTREAM\\auto_eval\\ds1000_scripts\\prepare_cases.py\n      65     10    255      1      74 preprocess@43-116@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_TASKWEAVER\\UPSTREAM\\auto_eval\\ds1000_scripts\\prepare_cases.py\n       6      3     23      1       6 package_mapping@119-124@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGE"
+  }
+}

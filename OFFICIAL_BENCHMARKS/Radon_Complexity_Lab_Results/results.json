@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_TASKWEAVER",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 3.9761904761904763
+    },
+    "complexity_grade": "A",
+    "complexity_score": 3.9761904761904763,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_TASKWEAVER\\UPSTREAM\\setup.py\n    F 34:0 create_zip_file - A (4)\n    F 8:0 update_version_file - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_TASKWEAVER\\UPSTREAM\\auto_eval\\evaluator.py\n    F 43:0 config_llm - A (5)\n    M 95:4 VirtualUser.talk_with_agent - A (5)\n    M 169:4 Evaluator.parse_output - A (5)\n    M 184:4 Evaluator.eval_via_code - A (5)\n    C 144:0 Evaluator - A (4)\n    F 33:0 get_config - A (3)\n    C 80:0 VirtualUser - A (3)\n    M 248:4 Evaluator.evaluate - A (3)\n    M 229:4 Evaluator.score - A (2)\n    F 27:0 load_config - A (1)\n    C 21:0 ScoringPoint - A (1)\n    M 81:4 VirtualUser.__init__ - A (1)\n    M 130:4 VirtualUser.get_reply_from_vuser - A (1)\n    M 140:4 VirtualUser.get_reply_from_agent - A (1)\n    M 145:4 Evaluator.__init__ - A (1)\n    M 155:4 Evaluator.format_input - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_TASKWEAVER\\UPSTREAM\\auto_eval\\taskweaver_eval.py\n    F 53:0 auto_evaluate_for_taskweaver - B (8)\n    F 112:0 batch_auto_evaluate_for_taskweaver - B (7)\n    M 27:4 TaskWeaverVirtualUser.get_reply_from_agent - A (4)\n    C 19:0 TaskWeaverVirtualUser - A (3)\n    M 20:4 TaskWeaverVirtualUser.__init__ - A (1)\n    M 49:4 TaskWeaverVirtualUser.close - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_TASKWEAVER\\UPSTREAM\\auto_eval\\utils.py\n    F 29:0 check_package_version - B (8)\n    F 15:0 load_task_case - A (3)\nE:\\fenta\\Downloads\\The Anticloud",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_TASKWEAVER\\UPSTREAM\\setup.py - A (71.92)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_TASKWEAVER\\UPSTREAM\\auto_eval\\evaluator.py - A (34.91)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_TASKWEAVER\\UPSTREAM\\auto_eval\\taskweaver_eval.py - A (52.11)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_TASKWEAVER\\UPSTREAM\\auto_eval\\utils.py - A (47.77)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS"
+  }
+}
